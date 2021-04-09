@@ -27,3 +27,6 @@ ufw allow 8080
 ufw allow 2022
 
 ufw enable
+
+# Restart the server to apply all changes.
+sudo reboot
