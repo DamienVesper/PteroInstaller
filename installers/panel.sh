@@ -48,3 +48,5 @@ chown -R www-data:www-data /var/www/pterodactyl/*
 
 # Systemd daemon handling.
 sudo systemctl enable --now redis-server
+
+read -p "Installation is not complete! Please read up on official documentation to finish setting up."
