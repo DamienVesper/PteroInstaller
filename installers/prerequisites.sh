@@ -28,7 +28,7 @@ ufw allow 2022
 
 ufw enable
 
+read -p "Installation is not complete! You still have to install either the panel, wings, or both, with / without the installer and from documentation."
+
 # Restart the server to apply all changes.
 sudo reboot
-
-read -p "Installation is not complete! You still have to install either the panel, wings, or both, with / without the installer and from documentation."
