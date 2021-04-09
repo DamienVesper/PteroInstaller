@@ -1,4 +1,4 @@
-# Prequisites for installing Pterodactyl.
+# Prerequisites for installing Pterodactyl.
 # Created by DamienVesper#0001
 
 # Install packages.
