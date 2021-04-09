@@ -14,6 +14,8 @@ snap install certbot --classic
 snap refresh all
 
 # Setup UFW.
+# Gameserver ports will need to be added manually!
+
 ufw default deny
 
 ufw limit 22
@@ -25,4 +27,3 @@ ufw allow 8080
 ufw allow 2022
 
 ufw enable
-
